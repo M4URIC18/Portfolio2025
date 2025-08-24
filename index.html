@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mauricio | Full-Stack Developer & Data Enthusiast</title>
+  <meta name="description" content="Portfolio of Mauricio, Full-Stack Developer & Data Enthusiast. I build accessible web apps and data tools that scale.">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar__brand">MEP</div>
+    <nav>
+      <ul class="navbar__links">
+        <li><a href="#about">Skills</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="https://drive.google.com/file/d/1l6s9vgaas1dQqWRFHW_48-dBV9yRH1h9/view?usp=sharing" target="_blank">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="btn btn--ghost">🌓</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <h1>Mauricio Embus Perez</h1>
+      <h2>Full-Stack Developer & Data Enthusiast</h2>
+      <p>I'm a Computer Science student with a passion for technology
+         and learning.<br> Fun facts: I have a plant I consider my pet, 
+         and apparently, my personality type is INFJ.</p>
+      <div class="hero__actions">
+        <a href="projects.html" class="btn btn--primary">Hobbies</a>
+        <a href="#contact" class="btn btn--ghost">Contact</a>
+      </div>
+    </div>
+  
+    <!-- Profile Image -->
+    <div class="hero__image reveal">
+      <img src="images/MyPic.jpeg" alt="Portrait of Mauricio" />
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="work">
+    <h2 class="reveal">Projects</h2>
+    <div class="grid">
+      <article class="card reveal">
+        <img src="images/tabsentry.png" alt="Tab Sentry preview">
+        <h3>Tab Sentry</h3>
+        <p class="tags">JS · Chrome APIs · HTML/CSS</p>
+        <p>Team-built Chrome extension that auto-closes idle tabs,
+        saves them to history, and restores with one click. Contributed
+        in UI design and testing.</p>
+        <a href="https://github.com/tkimmeth/tabsentry" class="btn btn--primary">Repo</a>
+       <!-- <a href="#" class="btn btn--ghost">Repo</a> -->
+      </article>
+
+      <article class="card reveal">
+        <img src="images/lost_found.png" alt="Sales Dashboard preview">
+        <h3>Lost & Found</h3>
+        <p class="tags">JS · MySQL · PHP · HTML/CSS</p>
+        <p>Built a school website for managing lost and found items. 
+            Users could post images of items and comment on the posts.</p>
+        <a href="https://github.com/M4URIC18/Lost_-_Found" class="btn btn--primary">Repo</a> 
+       <!-- <a href="https://github.com/M4URIC18/Lost_-_Found" class="btn btn--ghost">Repo</a> -->
+      </article>
+
+      <article class="card reveal">
+        <img src="images/onlinestore.png" alt="Portfolio CMS preview">
+        <h3>Matcha The Mate</h3>
+        <p class="tags">JS · HTML/CSS</p>
+        <p>Created a fictional e-commerce site for matcha and mate products 
+        with product browsing, shopping cart, and purchase total features.</p>
+        <a href="#" class="btn btn--primary">Repo</a>
+        <!-- <a href="#" class="btn btn--ghost">Repo</a> -->
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="about">
+    <h2 class="reveal" >Skills</h2>
+    <div class="grid grid--skills">
+      <div class="reveal"><h3>Languages</h3><p>C++, Python, JS, HTML/CSS</p></div>
+      <div class="reveal"><h3>Tools</h3><p>GitHub, Visual Studio Code</p></div>
+      <div class="reveal"><h3>Cloud</h3><p>AWS</p></div>
+      <div class="reveal"><h3>Data</h3><p>MySQL</p></div>
+      <div class="reveal"><h3>Operating systems</h3><p>Linux, Windows, MacOS,</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 class="reveal">Favorite Quotes</h2>
+    <blockquote class="reveal">
+      <p>"Somewhere, something incredible is waiting to be known"</p>
+      <cite>– Carl Sagan</cite>
+    </blockquote>
+    <blockquote class="reveal">
+      <p>"Great things in business are never done by one person;
+         they’re done by a team of people."</p>
+      <cite>– Steve Jobs</cite>
+    </blockquote>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="socials">
+        <a href="https://github.com/M4URIC18" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ma-us-pez08" target="_blank">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1l6s9vgaas1dQqWRFHW_48-dBV9yRH1h9/view?usp=sharing" target="_blank">Resume</a>
+        <button id="copyEmail" class="btn btn--primary">Copy Email</button>
+        <span id="tooltip" class="tooltip">Copied!</span>
+    </div>
+    <br>
+    <p>&copy; 2025 MEP</p>
+  </footer>
+</body>
+</html>
+
